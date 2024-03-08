@@ -1,64 +1,63 @@
-body{
+body {
     margin: 0;
     padding: 20px;
     font-family: "montserrat", sans-serif;
     background-color: #f7f7f7;
-
 }
-.container{
+
+.container {
     background-color: white;
-    box-shadow: rgb(0, 0, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
     border-radius: 5px;
     margin-top: 50px;
 }
-h1{
+
+h1 {
     font-size: 36px;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 20px;
-
 }
-.form{
+
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-label{
+label {
     font-weight: bold;
     margin-bottom: 10px;
-
-}
-input{
-    padding: 8x;
-   border: 1px solid #ccc;
-   border-radius: 5px;
-   width: 100%;
-   max-width: 300px;
-   transition: background-color .3s
-   ease;
 }
 
-button{
-  background-color: #007bff;
-   color: white;
-   border: none;
-   padding: 10px 20px;
-   border-radius: 5px;
-   margin-top: 10px;
-   cursor: pointer;
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    transition: background-color 0.3s ease;
 }
 
-button:hover{
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
     background-color: #0062cc;
-
 }
 
-#result{
+#result {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 24px; /* Updated font size */
     font-weight: bold;
 }
